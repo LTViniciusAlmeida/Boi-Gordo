@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* ========== sites bases ========== */
+
+/* https://www.bgcarnesexpress.com.br/ */
+/* https://www.acouguetresmarias.com.br/ */
+/* https://www.bullprime.com/ */
+/* https://freelaflow.com.br/ */
+/* https://boiandbeer.com.br/ */
+/* https://www.carnegel.com.br/ */
+
+
+/* ========== fontes ========== */
+
+/* A definir */
+
+/* ========== variáveis ========== */
+
+:root {
+    --cor-header: #171B24;
+    --cor-fonte: #F2F2EB;
+    --cor-border: #BF895A;
+    --cor-01: #A63740;
+    --cor-05: #8C3232;
+    --gradient: linear-gradient(to top, #171B24, #B3B5B0, #171B24);
+    --font-title: 'Times New Roman', Times, serif;
+    --font-title-primary-size: 2em;
+    --font-title-secundary-size: 1.5em;
+    --font-txt-size: 1em;
+}
+
+/* ========== estilos globais ========== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== header ========== */
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-header);
+}
+
+.container-cep {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid var(--cor-border);
+}
+
+.container-cep-delivery {
+    font-size: var(--font-title-secundary-size);
+    color: var(--cor-fonte);
+}
+
+.container-up {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--cor-border);
+}
+
+.container-up-div {
+    height: 20vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+    border: 1px solid var(--cor-border);
+}
+
+.container-up-div__logo {
+    height: 100%;
+}
+
+.container-up-div--search-box {
+    height: 10vh;
+    width: 30vw;
+    gap: 0 5px;
+    border-radius: 10px;  
+}
+
+.container-up-div__search-txt {
+    height: 100%;
+    width: 90%;
+    font-size: 1.2em;
+    color: var(--cor-fonte);
+    background-color: var(--cor-header);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px var(--cor-fonte);
+}
+
+.container-up-div__search-btn {
+    height: 100%;
+    width: 10%;
+    background-color: var(--cor-header);
+    border: transparent;
+    font-size: var(--font-title-secundary-size);
+    color: var(--cor-fonte);
+}
+
+.container-up-div--login-and-cart {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-up-div__span-login-and-cart {
+    font-size: var(--font-title-secundary-size);
+    color: var(--cor-fonte);
+}
+
+.menu-dropdown {
+    
+}
+
+.menu-empresarial {
+    height: 10vh;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+    border: 1px solid var(--cor-border);
+}
+
+.menu-empresarial__list {
+    font-size: var(--font-title-secundary-size);
+    color: var(--cor-fonte);
+    margin: 0 25px;
+}
+
+.carnes {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carnes-exoticas {
+    height: 30vh;
+    display: flex;
+}
+
+.carnes-exoticas-imagem {
+    height: 100%;
+}
