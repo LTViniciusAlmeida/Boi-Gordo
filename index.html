@@ -5,103 +5,353 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>Notlher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kuyavsky</title>
 </head>
 
 <body>
-
     <header>
-        <section class="container-cep">
-            <div class="container-cep-delivery container-cep-delivery--entrega">Entrega</div>
-            <div class="container-cep-delivery container-cep-delivery--calculo-frete-gratis">Frete Grátis</div>
-            <div class="container-cep-delivery container-cep-delivery--telefone">41 99599 - 0099</div>
-        </section>
-        <section class="container-up">
-            <div class="container-up-div">
-                <img class="container-up-div__logo" src="imagens/logo.jpg" alt="">
-            </div>
-            <div class="container-up-div container-up-div--search-box">
-                    <input autocomplete="off" type="text" class="container-up-div__search-txt" id="search-txt" class="search-txt" name="search-txt" placeholder="Pesquisar produtos">
-                    <button class="container-up-div__search-btn">
-                        <i class="fa-solid fa-magnifying-glass" alt=""Lupa></i>
-                    </button>
-            </div>
-            <div class="container-up-div container-up-div--login-and-cart">
-                <i class="fa-regular fa-user container-up-div__span-login-and-cart"></i>
-                <span class="container-up-div__span-login-and-cart">Faça seu login ou cadastre-se</span>
-            </div>
-            <div class="container-up-div container-up-div--login-and-cart">
-                <i class="fa-solid fa-basket-shopping container-up-div__span-login-and-cart"></i>
-                <span class="container-up-div__span-login-and-cart">Cesta</span>
-            </div>
-        </section>
-        <section>
-            <div class="menu-dropdown">
-                
-            </div>
-            <nav>
-                <ul class="menu-empresarial">
-                    <li class="menu-empresarial__list">Início</li>
-                    <li class="menu-empresarial__list">Tabela de Preços</li>
-                    <li class="menu-empresarial__list">Regiões de Entregas</li>
-                    <li class="menu-empresarial__list">Contato</li>
-                    <li class="menu-empresarial__list">Quem Somos</li>
-                    <li class="menu-empresarial__list">Notlher</li>
-                    <li class="menu-empresarial__list">localização</li>
-                </ul>
-            </nav>
+        <section class="container-main">
+            <video class="container-main__back-video" plays-inline loop muted autoplay>
+                <source type="video/webm" src="https://carnegel.com.br/themes/carnegel/34_NA.c78119f2.webm">
+                <source type="video/mp4" src="https://carnegel.com.br/themes/carnegel/34_NA.76791a84.mp4">
+            </video>
+            <section id="container-main__header">
+                <nav>
+                    <div class="container-main__menu">
+                        <div class="container-main__title">
+                            <a id="container-main__empresarial-link--title-kuyavsky"
+                                class="container-main__empresarial-link" href="#container-main__header">
+                                <h1 class="container-main__title-kuyavsky">Kuyavsky</h1>
+                            </a>
+                        </div>
+                        <ul class="container-main__empresarial">
+                            <li class="container-main__empresarial-list">
+                                <a href="#container-main__header" class="container-main__empresarial-link">Início</a>
+                            </li>
+                            <li class="container-main__empresarial-list container-main__empresarial-list--carnes">
+                                <a href="#carnes" class="container-main__empresarial-link">Carnes Exóticas</a>
+                            </li>
+                            <li class="container-main__empresarial-list container-main__empresarial-list--carnes">
+                                <a href="#carnes" class="container-main__empresarial-link">Carnes Nobres</a>
+                            </li>
+                            <li class="container-main__empresarial-list">
+                                <a href="#us" class="container-main__empresarial-link">Quem Somos</a>
+                            </li>
+                            <li class="container-main__empresarial-list">
+                                <a href="#contact" class="container-main__empresarial-link">Contato</a>
+                            </li>
+                            <li class="container-main__empresarial-list">
+                                <a href="#adress" class="container-main__empresarial-link">localização</a>
+                            </li>
+                            <li class="container-main__empresarial-list container-main__empresarial-list--icon">
+                                <a href="" class="container-main__empresarial-link">
+                                    <i class="fa-regular fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="container-main__empresarial-list container-main__empresarial-list--icon">
+                                <a href="" class="container-main__empresarial-link">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+            <section class="container-main__cep">
+                <div class="container-main__cep-delivery">
+                    <a href="https://www.facebook.com/" target="_blank" class="container-main__cep-link-icon">
+                        <i class="fa-brands fa-facebook container-main__cep-icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="container-main__cep-link-icon">
+                        <i class="fa-brands fa-instagram container-main__cep-icon"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" class="container-main__cep-link-icon">
+                        <i class="fa-brands fa-youtube container-main__cep-icon"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" class="container-main__cep-link-icon">
+                        <i class="fa-brands fa-twitter container-main__cep-icon"></i>
+                    </a>
+                </div>
+            </section>
+            <section class="container-main__end">
+                <h2 class="container-main__end-title">Carne Nobres e Exóticas. Preço justo. É Kuyavsky</h2>
+                <h2 class="container-main__end-slogan">O melhor da carne em Curitiba</h2>
+                <div class="container-main__end-arrow">
+                    <a href="#carnes">
+                        <i class="fa-solid fa-angle-down container-main__end-arrow-down"></i>
+                    </a>
+                </div>
+            </section>
         </section>
     </header>
-
     <main>
-        <section class="carnes">
-            <div class="carnes-exoticas">
-                <div>
-                    <h1>Carne de Jacaré</h1>
-                    <img class="carnes-exoticas-imagem" src="https://images.pexels.com/photos/18852574/pexels-photo-18852574/free-photo-of-carne-bovina-tabua-de-cortar-tabua-de-corte-fotografia-de-alimentos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <section id="carnes" class="carnes">
+            <div class="carnes__page">
+                <div class="carnes__exoticas">
+                    <div class="carnes__exoticas-menu">
+                        <h1 class="carnes__exoticas-title">Carne de Jacaré</h1>
+                        <img class="carnes__exoticas-imagem"
+                            src="https://images.pexels.com/photos/18852574/pexels-photo-18852574/free-photo-of-carne-bovina-tabua-de-cortar-tabua-de-corte-fotografia-de-alimentos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <div class="carnes__exoticas-menu">
+                        <h1 class="carnes__exoticas-title">Carne de Javali</h1>
+                        <img class="carnes__exoticas-imagem"
+                            src="https://images.pexels.com/photos/18861865/pexels-photo-18861865/free-photo-of-cozinhando-cozimento-culinaria-fotografia-de-alimentos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <div class="carnes__exoticas-menu">
+                        <h1 class="carnes__exoticas-title">Carne de Cavalo</h1>
+                        <img class="carnes__exoticas-imagem"
+                            src="https://images.pexels.com/photos/18852569/pexels-photo-18852569/free-photo-of-carne-bovina-fotografia-de-alimentos-fotografia-de-comida-refeicao.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <div class="carnes__exoticas-menu">
+                        <h1 class="carnes__exoticas-title">Carne de Canguru</h1>
+                        <img class="carnes__exoticas-imagem"
+                            src="https://images.pexels.com/photos/18852568/pexels-photo-18852568/free-photo-of-delicioso-saboroso-gostoso-comida-rapida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
                 </div>
-                <div>
-                    <h1>Carne de Javali</h1>
-                    <img class="carnes-exoticas-imagem" src="https://images.pexels.com/photos/18861865/pexels-photo-18861865/free-photo-of-cozinhando-cozimento-culinaria-fotografia-de-alimentos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                </div>
-                <div>
-                    <h1>Carne de Cavalo</h1>
-                    <img class="carnes-exoticas-imagem" src="https://images.pexels.com/photos/18852569/pexels-photo-18852569/free-photo-of-carne-bovina-fotografia-de-alimentos-fotografia-de-comida-refeicao.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                </div>
-                <div>
-                    <h1>Carne de Canguru</h1>
-                    <img class="carnes-exoticas-imagem" src="https://images.pexels.com/photos/18852568/pexels-photo-18852568/free-photo-of-delicioso-saboroso-gostoso-comida-rapida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="carnes__nobres">
+                    <div class="carnes__nobres-menu">
+                        <h1 class="carnes__nobres-title">T-Bone</h1>
+                        <img class="cares__nobres-imagem"
+                            src="https://media.istockphoto.com/id/1310148041/pt/foto/barbecue-wagyu-t-bone-steak-sliced-porterhouse-grilled-beef-steak-medium-rare-on-stone-table.jpg?s=2048x2048&w=is&k=20&c=wfE3IjnWMFmSrhnF0rOgOMZBp3gJimfpctpnT6RRQeQ="
+                            alt="">
+                    </div>
+                    <div class="carnes__nobres-menu">
+                        <h1 class="carnes__nobres-title">Cordeiro</h1>
+                        <img class="cares__nobres-imagem"
+                            src="https://media.istockphoto.com/id/163641905/pt/foto/carneiro-chops-no-recipiente.jpg?s=2048x2048&w=is&k=20&c=plKZxO-Msrk19jJDJnlQAp7_XymWWMUuCtTsvZCLTmA="
+                            alt="">
+                    </div>
+                    <div class="carnes__nobres-menu">
+                        <h1 class="carnes__nobres-title">Mignon</h1>
+                        <img class="cares__nobres-imagem"
+                            src="https://media.istockphoto.com/id/172398100/pt/foto/cru-fresco-e-bife-suculento-filets.jpg?s=2048x2048&w=is&k=20&c=Q2-oX56HUAcXKlLxEY8DgZ7d2QxYmYXY9SD08vHQNRg="
+                            alt="">
+                    </div>
+                    <div class="carnes__nobres-menu">
+                        <h1 class="carnes__nobres-title">Picanha</h1>
+                        <img class="cares__nobres-imagem"
+                            src="https://media.istockphoto.com/id/1408041025/pt/foto/sliced-raw-picanha-or-rump-meat-over-wooden-board-with-seasonings.jpg?s=2048x2048&w=is&k=20&c=NoLQGdw09rgLEjDRiXRFG3KcdH9_Q8qB0qZzEUh7iNU="
+                            alt="">
+                    </div>
                 </div>
             </div>
-            <div class="carnes-nobres">
-                <div>
-
+            <div class="carnes__end-arrow">
+                <a href="#container-main__header">
+                    <i class="fa-solid fa-angle-up carnes__end-arrow-down"></i>
+                </a>
+            </div>
+        </section>
+        <section id="us" class="us">
+            <div class="us__page">
+                <div class="us__title-div">
+                    <h2 class="us__title-h2">Desde 1991, a Kuyavsky oferece as melhores carnes. Conheça um pouco da
+                        nossa
+                        história</h2>
+                    <h2 class="us__title-h2">Carnes Nobres e Exóticas</h2>
+                    <h2 class="us__title-h2">Tradição</h2>
+                    <div class="us__end-arrow">
+                        <a href="#us__txt-div">
+                            <i class="fa-solid fa-angle-down us__end-arrow-down"></i>
+                        </a>
+                    </div>
                 </div>
-                <div>
-
+                <div id="us__txt-div" class="us__txt-div">
+                    <p class="us__txt-p">A Casa da Carne, como era inicialmente chamada, foi fundada pelo Sr. Vinícius
+                        Kuyavsky e pela Sra. Luciana Kuyavsky em 11 de Dezembro de 1991. O Sr. Vinícius e a Sra. Luciana
+                        Kuyavsky com dedicação, força de vontade e espírito empreendedor batalharam para cuidar dos
+                        negócios, sustentar e educar seus quatro filhos.</p>
+                    <p class="us__txt-p">A Casa da Carne seguiu com este nome até 1991, quando o governo de José Sarney,
+                        na tentativa de conter a hiperinflação instituiu o congelamento de preços para bens de consumo
+                        inclusive carnes frescas. Foi então que o filho mais velho da Sra. Luciana Kuyavsky, Neve
+                        Kuyavsky decidiu mudar o nome da empresa. Inovando com a venda de cortes nobres congelados e
+                        embalados, funda-se a Kuyavsky.</p>
+                    <p class="us__txt-p">Hoje, sob o comando do filho caçula Vinícius Júnior, com novo visual e
+                        fornecedores escolhidos a dedo, a Kuyavsky iniciou sua nova fase buscando atender cada vez
+                        melhor os clientes, tanto que em 2006 foi construída uma câmara fria de alta capacidade de
+                        refrigeração, permitindo a Kuyavsky disponibilizar também carnes exóticas.</p>
+                    <p class="us__txt-p us__txt-p--slogan">Essas foram as primeiras de muitas mudanças que ainda
+                        virão,confirmando sempre o nosso principal motivo de tudo isso: <span
+                            class="us__txt-p-span">oferecer continuamente os melhores produtos e atender os clientes da
+                            melhor forma possível</span></p>
                 </div>
-                <div>
-
+            </div>
+            <div class="us__end-arrow us__end-arrow--ending-page">
+                <a href="#container-main__header">
+                    <i class="fa-solid fa-angle-up us__end-arrow-down"></i>
+                </a>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact__page">
+                <div class="contact-div-title">
+                    <h2 class="contact__h2">Dúvidas, orçamentos, sugestões?</h2>
+                    <h2 class="contact__h2">Entre em contato conosco!</h2>
                 </div>
-                <div>
-
+                <form class="contact__form" action="" method="get">
+                    <div class="contact__form-control">
+                        <label class="contact__txt-label" for="nome">Nome</label>
+                        <input class="contact__txt-input" type="text" name="nome" id="nome"
+                            placeholder="Digite seu nome">
+                    </div>
+                    <div class="contact__form-control">
+                        <label class="contact__txt-label" for="email">E-mail</label>
+                        <input class="contact__txt-input" type="email" name="email" id="email"
+                            placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="contact__form-control">
+                        <label class="contact__txt-label" for="tel">Telefone</label>
+                        <input class="contact__txt-input" type="tel" name="tel" id="tel"
+                            placeholder="Digite seu número de telefone ou celular">
+                    </div>
+                    <div class="contact__form-control contact__form-control--radio">
+                        <div class="contact__form-control-radio">
+                            <p class="contact__radio-p">Preferência por:</p>
+                            <div class="contact__div-radio">
+                                <input class="contact__txt-input-radio" type="radio" name="radio" id="radio">
+                                <label class="contact__txt-label-radio" for="radio">Carnes Exóticas</label>
+                            </div>
+                            <div class="contact__div-radio">
+                                <input class="contact__txt-input-radio" type="radio" name="radio" id="radio">
+                                <label class="contact__txt-label-radio" for="radio">Carnes Nobres</label>
+                            </div>
+                            <div class="contact__div-radio">
+                                <input class="contact__txt-input-radio" type="radio" name="radio" id="radio">
+                                <label class="contact__txt-label-radio" for="radio">Ambas</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__form-control">
+                        <label class="contact__txt-label-select" for="tipos-carnes">Escolha sua carne favorita:</label>
+                        <select class="contact__txt-select" name="tipos-carnes" id="tipos-carnes">
+                            <option class="contact__txt-select-txt" value="carne de jacaré">Carne de Jacaré</option>
+                            <option class="contact__txt-select-txt" value="carne de javali">Carne de Javali</option>
+                            <option class="contact__txt-select-txt" value="carne de cavalo">Carne de Cavalo</option>
+                            <option class="contact__txt-select-txt" value="carne de ganguru">Carne de Ganguru</option>
+                            <option class="contact__txt-select-txt" value="t-bone">T-Bone</option>
+                            <option class="contact__txt-select-txt" value="cordeiro">Cordeiro</option>
+                            <option class="contact__txt-select-txt" value="mignon">Mignon</option>
+                            <option class="contact__txt-select-txt" value="picanha">Picanha</option>
+                        </select>
+                    </div>
+                    <div class="contact__form-control contact__form-control--checkbox">
+                        <label for="comunicacao">Contato por:</label>
+                        <span><input type="checkbox" name="comunicacao" id="comunicacao">SMS</span>
+                        <span><input type="checkbox" name="comunicacao" id="comunicacao">e-mail</span>
+                        <span><input type="checkbox" name="comunicacao" id="comunicacao">WhatsApp</span>
+                        <span><input type="checkbox" name="comunicacao" id="comunicacao">Telefone</span>
+                        <span><input type="checkbox" name="comunicacao" id="comunicacao">Todos os meios</span>
+                    </div>
+                    <div class="contact__form-control contact__form-control--txt">
+                        <label for="texto">Mensagem:</label>
+                        <textarea name="texto" id="texto" cols="30" rows="10" maxlength="5000"></textarea>
+                    </div>
+                    <div class="contact__form-control contact__form-control-btn">
+                        <input type="submit" id="btn" value="Enviar">
+                    </div>
+                </form>
+                <div class="contact__end-arrow">
+                    <a href="#container-main__header">
+                        <i class="fa-solid fa-angle-up contact__end-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="adress" class="adress">
+            <div class="adress__page">
+                <div class="adress__div-link">
+                    <a class="adress__link-contact" href="https://wa.me/5541995690084" target="_blank">
+                        <i class="fa-brands fa-whatsapp adress__icon"></i>
+                        <span class="adress__span-contact">Entrar em contato</span>
+                    </a>
+                </div>
+                <div class="adress__end-arrow">
+                    <a href="#container-main__header">
+                        <i class="fa-solid fa-angle-up adress__end-arrow-down"></i>
+                    </a>
+                </div>
+                <div class="adress__end-page-localization">
+                    <div class="adress__google-maps-div">
+                        <iframe class="adress__google-maps-iframe"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1126374592714!2d-49.29162332382743!3d-25.434497533071212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce394474f6777%3A0xee6d623b448bc46!2sCasa%20de%20Carnes%20Luis%20Ribeiro%20-%20Bigorrilho!5e0!3m2!1spt-BR!2sbr!4v1702919313002!5m2!1spt-BR!2sbr"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="adress__adress">
+                        <p class="adress_txt-localization">
+                            R. Alferes Ângelo Sampaio, nº 2321 - Bigorrilho, Curitiba - PR, 80250-120
+                        </p>
+                        <p class="adress_txt-localization">
+                            horário de funcionamento:
+                        </p>
+                        <p class="adress_txt-localization">
+                            Segunda-feira à Sábado - 08:30 - 20:00
+                        </p>
+                        <p class="adress_txt-localization">
+                            Domingo - 8:30 - 13:00
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer__links-sm">
+            <a href="https://www.youtube.com/@instituto_Infnet" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/LTViniciusAlmeida" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/vinicius-almeida-22b978240" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="footer__links-contat">
+            <ul style="list-style: none" ;>
+                <li>
+                    <a href="https://wa.me/5541995690084" target="_blank"
+                        alt="Você será direcionado ao WhatsApp Web para contato"
+                        title="Você será direcionado ao WhatsApp Web para contato" class="footer__contato">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h2>Mande uma mensagem por WhatsApp clicando na logo</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:vinicius.front.end.developer@LTViniciusAlmeida.com" target="_blank"
+                        alt="Você será direcionado ao seu e-mail para entrar em contato conosco de forma automátia"
+                        title="Você será direcionado ao seu e-mail para entrar em contato conosco de forma automátia"
+                        class="footer__contato">
+                        <i class="fa-regular fa-envelope"></i>
+                        <h2>vinicius.front.end.developer@LTViniciusAlmeida.com</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__links-formas-de-pagamento">
+            <i class="fa-brands fa-cc-paypal"></i>
+            <i class="fa-brands fa-amazon-pay"></i>
+            <i class="fa-brands fa-apple-pay"></i>
+            <i class="fa-brands fa-google-pay"></i>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-amex"></i>
+            <i class="fa-brands fa-pix"></i>
+        </div>
+        <div class="footer__trademark">
+            <p>© 2023 Vinícius Almeida Web Designer / Front-End Developer. Todos os direitos resevados. Todas as marcas
+                registradas são de propriedade de seus respectivos donos.</p>
+        </div>
+    </footer>
+    <a href="#" class="up-icon">
+        <a href="https://wa.me/5541995690084" target="_blank" class="material-symbols-outlined">
+            <i class="fa-brands fa-whatsapp .material-symbols-outlined"></i>
+        </a>
+    </a>
 
     <script src="script.js"></script>
 </body>
+
 </html>
-<!-- <nav>
-    <ul class="menu-produtos">
-        <li class="menu-produtos__list">Todas as opções</li>
-        <li class="menu-produtos__list">Aves</li>
-        <li class="menu-produtos__list">Bovinos</li>
-        <li class="menu-produtos__list">Cordeiro</li>
-        <li class="menu-produtos__list">Suínos</li>
-        <li class="menu-produtos__list">Peixes</li>
-        <li class="menu-produtos__list">Bebidas</li>
-    </ul>
-</nav> -->
